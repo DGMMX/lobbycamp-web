@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #020617;
-  --foreground: #ededed;
+  background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: bg-yellow-600;
+  
 }
 
 @theme inline {
@@ -14,8 +18,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #020617;
-    --foreground: #ededed;
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: bg-yellow-600;
+    --foreground: #CBD5E1;
   }
 }
 
